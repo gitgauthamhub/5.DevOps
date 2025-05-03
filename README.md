@@ -83,6 +83,7 @@ Think of an IP address as a building’s address and a port as an apartment numb
 >> $ pwd   >> $ cd   >> $ sudo su   >> $ cd ../gautham   >> $ ls -l
 
 >> [root@ip-172-31-4-113 ec2-user]# cd ../gautham
+
 >> [root@ip-172-31-4-113 gautham]# ls -l
 
 
