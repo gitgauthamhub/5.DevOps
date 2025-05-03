@@ -53,8 +53,7 @@ $ chown  // it will not work bcz file ownership can only be modified by root use
 $ sudo chown gautham aws.txt
 >> ls -l
 
-$ sudo chown gautham:gautham aws.txt
->> ls -l
+$ sudo chown gautham:gautham aws.txt  >> ls -l
 
 Key based authentication
 ========================
