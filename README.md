@@ -73,10 +73,12 @@ Key based authentication
 >> $ pwd  >> $ cd  >> $ ls -la  >> $ cd .ssh  >> $ ls -l  >> cat filename
 
 $ systemctl status sshd
->> Note here u can see the content
+>> Now you can see the above content 
 
 >> Note : 65,536 ports 0-65,535  || Ports enable a single device (with one IP address) to run multiple services (e.g., web server, SSH, database) by directing traffic to the correct application.
-Think of an IP address as a building’s address and a port as an apartment number.
+                                    Think of an IP address as a building’s address and a port as an apartment number.
+
+>> 
 
 
 
