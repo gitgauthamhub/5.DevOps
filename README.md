@@ -56,6 +56,19 @@ $ sudo chown gautham aws.txt
 $ sudo chown gautham:gautham aws.txt
 >> ls -l
 
+Key based authentication
+========================
+>> Secure method for authenticating users to a remote server (e.g., via SSH) using a pair of cryptographic keys instead of passwords.
+>> How can you give key based access to linux user?
+
+
+1. create user
+2. sivakumar can send his public key to admin user
+3. /home/gautham admin creates .ssh in /home/gautham folder
+4. gautham is the only owner to this folder... 700
+5. create a file called authorized_keys with max access 600
+6. admin keeps gautham public key here.
+7. now gautham should be able to login
 
 
 
