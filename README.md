@@ -30,7 +30,8 @@ $ chmod 700 devops.txt
 >> Only Owner/Root user can change the permissions
 
 Ownership
-Ownership refers to the user and group associated with a file or directory, Note : Now change User/Group ownership 
+===========
+>> Ownership refers to the user and group associated with a file or directory, Note : Now change User/Group ownership 
 
 chown <user>:<group> devops.txt
 
@@ -41,12 +42,19 @@ $ cd /tmp/
 $ touch aws.txt
 >> ls -l            
 
+Sudo access to user
+===================
+>> sudo access to a user in Linux allows them to execute commands with superuser (root) privileges,  You must be logged in as the root user or a user with sudo privileges to make these changes.
+
 $ sudo useradd gautham
 >> ls -l
 $ chown  // it will not work bcz file ownership can only be modified by root user
 
 $ sudo chown gautham aws.txt
-ls -l
+>> ls -l
+
+$ sudo chown gautham:gautham aws.txt
+>> ls -l
 
 
 
