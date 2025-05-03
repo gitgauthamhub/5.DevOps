@@ -84,7 +84,7 @@ Think of an IP address as a building’s address and a port as an apartment numb
 
 $ mkdir .ssh
 
-$ chmod 700 -R .ssh/   >> $ ls -la
+$ chmod 700 -R .ssh/   ||  $ ls -la
 
 
 
