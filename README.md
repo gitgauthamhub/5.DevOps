@@ -104,6 +104,28 @@ Think of an IP address as a building’s address and a port as an apartment numb
 
 >> Note : Back Old Window   ||  [root@ip-172-31-4-113 .ssh]# vim authorized   || Paste here : $ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIDrajRhPkTzRveq+V7V4rt9z7mRsPniZrYeKxOPW3cYp LENOVO@DESKTOP-71PH2GG
 
+>> [root@ip-172-31-4-113 .ssh]# vim authorized
+
+>> [root@ip-172-31-4-113 .ssh]# cat authorized
+[200~ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIDrajRhPkTzRveq+V7V4rt9z7mRsPniZrYeKxOPW3cYp LENOVO@DESKTOP-71PH2GGi
+
+>> [root@ip-172-31-4-113 .ssh]# ls -l   ||  total 4  -rw-r--r--. 1 root root 110 May  3 23:35 authorized
+
+>> [root@ip-172-31-4-113 .ssh]# chmod 600 authorized
+
+>> [root@ip-172-31-4-113 .ssh]# ls -l || total 4 -rw-------. 1 root root 110 May  3 23:35 authorized
+
+>> [root@ip-172-31-4-113 .ssh]# cd ..
+
+>> [root@ip-172-31-4-113 gautham]# ls -l
+
+>> [root@ip-172-31-4-113 gautham]# ls -la
+
+>> [root@ip-172-31-4-113 gautham]# chown gautham:gautham -R .ssh/
+
+>> 
+
+
 
 
 
