@@ -64,8 +64,10 @@ Key based authentication
 
 1. create user
 2. sivakumar can send his public key to admin user
+
 3. /home/gautham admin creates .ssh in /home/gautham folder
 4. gautham is the only owner to this folder... 700
+
 5. create a file called authorized_keys with max access 600
 6. admin keeps gautham public key here.
 7. now gautham should be able to login
@@ -76,7 +78,7 @@ $ systemctl status sshd
 >> Now you can see the above content 
 
 >> Note : 65,536 ports 0-65,535  || Ports enable a single device (with one IP address) to run multiple services (e.g., web server, SSH, database) by directing traffic to the correct application.
-                                    Think of an IP address as a building’s address and a port as an apartment number.
+Think of an IP address as a building’s address and a port as an apartment number.
 
 >> 
 
