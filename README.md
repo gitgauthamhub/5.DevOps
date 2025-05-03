@@ -82,6 +82,11 @@ Think of an IP address as a building’s address and a port as an apartment numb
 
 >> $ pwd   >> $ cd   >> $ sudo su   >> $ cd ../gautham   >> $ ls -l
 
+$ mkdir .ssh
+
+$ chmod 700 -R .ssh/   >> $ ls -la
+
+
 
 
 
