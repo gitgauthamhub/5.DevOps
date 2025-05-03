@@ -86,11 +86,13 @@ Think of an IP address as a building’s address and a port as an apartment numb
 
 >> [root@ip-172-31-4-113 gautham]# ls -l
 
+>> [root@ip-172-31-4-113 gautham]# mkdir .ssh
 
-$ mkdir .ssh
+>> [root@ip-172-31-4-113 gautham]# chmod 700 -R .ssh/
 
-$ chmod 700 -R .ssh/   
->> $ ls -la
+>> [root@ip-172-31-4-113 gautham]# ls -la
+
+>> [root@ip-172-31-4-113 gautham]# cd .ssh/
 
 
 
