@@ -27,4 +27,29 @@ ls -l
 $ chmod ugo+w devops.txt
 $ chmod 700 devops.txt
 
+>> Only Owner/Root user can change the permissions
+
+Ownership
+Ownership refers to the user and group associated with a file or directory,
+
+chown <user>:<group> devops.txt
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
