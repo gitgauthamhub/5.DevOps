@@ -70,6 +70,8 @@ Key based authentication
 6. admin keeps gautham public key here.
 7. now gautham should be able to login
 
+>> $ pwd  >> $ cd  >> $ ls -la  >> $ cd .ssh  >> $ ls -l  >> cat 
+
 
 
 
