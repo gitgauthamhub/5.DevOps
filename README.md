@@ -53,7 +53,8 @@ $ chown  // it will not work bcz file ownership can only be modified by root use
 $ sudo chown gautham aws.txt
 >> ls -l
 
-$ sudo chown gautham:gautham aws.txt  >> ls -l
+$ sudo chown gautham:gautham aws.txt  
+>> ls -l
 
 Key based authentication
 ========================
@@ -69,7 +70,15 @@ Key based authentication
 6. admin keeps gautham public key here.
 7. now gautham should be able to login
 
->> $ pwd  >> $ cd  >> $ ls -la  >> $ cd .ssh  >> $ ls -l  >> cat 
+>> $ pwd  >> $ cd  >> $ ls -la  >> $ cd .ssh  >> $ ls -l  >> cat filename
+
+$ systemctl status sshd
+>> Note here u can see the content
+
+>> Note : 65,536 ports 0-65,535  || Ports enable a single device (with one IP address) to run multiple services (e.g., web server, SSH, database) by directing traffic to the correct application.
+Think of an IP address as a building’s address and a port as an apartment number.
+
+
 
 
 
