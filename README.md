@@ -22,7 +22,7 @@ user		   group
 ======================
 
 $ touch devops.txt
-ls -l
+>> ls -l
 
 $ chmod ugo+w devops.txt
 $ chmod 700 devops.txt
@@ -36,13 +36,13 @@ chown <user>:<group> devops.txt
 
 Change the path
 $ cd /tmp/
-ls -l
+>> ls -l
 
 $ touch aws.txt
-ls -l            
+>> ls -l            
 
 $ sudo useradd gautham
-ls -l
+>> ls -l
 $ chown  // it will not work bcz file ownership can only be modified by root user
 
 $ sudo chown gautham aws.txt
