@@ -52,15 +52,13 @@ Sudo access to user
 ===================
 >> sudo access to a user in Linux allows them to execute commands with superuser (root) privileges,  You must be logged in as the root user or a user with sudo privileges to make these changes.
 
-$ sudo useradd gautham
->> ls -l
-$ chown  // it will not work bcz file ownership can only be modified by root user
+>> $ sudo useradd gautham    ||  ls -l
 
-$ sudo chown gautham aws.txt
->> ls -l
+>> $ chown  // it will not work bcz file ownership can only be modified by root user
 
-$ sudo chown gautham:gautham aws.txt  
->> ls -l
+>> $ sudo chown gautham aws.txt   || ls -l
+
+>> $ sudo chown gautham:gautham aws.txt    || ls -l
 
 Key based authentication
 ========================
