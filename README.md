@@ -25,6 +25,7 @@ $ touch devops.txt
 >> ls -l
 
 $ chmod ugo+w devops.txt
+
 $ chmod 700 devops.txt
 
 >> Only Owner/Root user can change the permissions
