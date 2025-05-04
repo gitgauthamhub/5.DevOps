@@ -93,7 +93,7 @@ Think of an IP address as a building’s address and a port as an apartment numb
    [root@ip-172-31-1-129 ec2-user]# useradd gautham
  >> 
 
->>  >> $ cd ../gautham/   >> $ ls -l
+>>  $ cd ../gautham/   >> $ ls -l
 
 >> [root@ip-172-31-4-113 ec2-user]# cd ../gautham
 
@@ -118,7 +118,7 @@ Think of an IP address as a building’s address and a port as an apartment numb
 
 >> $ cat gautham.pub
 
->> $ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIDrajRhPkTzRveq+V7V4rt9z7mRsPniZrYeKxOPW3cYp LENOVO@DESKTOP-71PH2GG
+>> ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIDrajRhPkTzRveq+V7V4rt9z7mRsPniZrYeKxOPW3cYp LENOVO@DESKTOP-71PH2GG
 
 >> Note : Back Old Window   ||  [root@ip-172-31-4-113 .ssh]# vim authorized   || Paste here : $ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIDrajRhPkTzRveq+V7V4rt9z7mRsPniZrYeKxOPW3cYp LENOVO@DESKTOP-71PH2GG
 
