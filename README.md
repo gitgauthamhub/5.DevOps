@@ -93,7 +93,7 @@ Think of an IP address as a building’s address and a port as an apartment numb
    [root@ip-172-31-1-129 ec2-user]# useradd gautham
  >> 
 
->>  >> $ cd ../gautham   >> $ ls -l
+>>  >> $ cd ../gautham/   >> $ ls -l
 
 >> [root@ip-172-31-4-113 ec2-user]# cd ../gautham
 
