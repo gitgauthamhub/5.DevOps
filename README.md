@@ -164,7 +164,9 @@ Think of an IP address as a building’s address and a port as an apartment numb
       ~~._.   _/
          _/ _/
        _/m/'
-This is Final OUTPUT Successful you can 
+
+>> [gautham@ip-172-31-1-129 ~]$ id
+   uid=1001(gautham) gid=1001(gautham) groups=1001(gautham) context=unconfined_u:unconfined_r:unconfined_t:s0-s0:c0.c1023
 
 
 
