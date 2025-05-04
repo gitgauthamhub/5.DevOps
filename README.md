@@ -24,11 +24,9 @@ user		   group
 $ touch devops.txt
 >> ls -l
 
-$ chmod ugo+w devops.txt 
+>> $ chmod ugo+w devops.txt  || $ chmod o-w devops.txt
 
-$ chmod o-w devops.txt
-
-$ chmod 700 devops.txt
+>> $ chmod ugo+rwx devops.txt  || $ chmod 700 devops.txt
 
 >> Only Owner/Root user can change the permissions
 
