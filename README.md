@@ -85,7 +85,15 @@ Think of an IP address as a building’s address and a port as an apartment numb
 
 >> $ cat filename   ||  ls -l
 
->> $ pwd   >> $ cd   >> $ sudo su   >> $ cd ../gautham   >> $ ls -l
+>> $ pwd   >> $ cd   >> $ sudo su
+
+>> [root@ip-172-31-1-129 ec2-user]# useradd gautham
+   useradd: user 'gautham' already exists
+   [root@ip-172-31-1-129 ec2-user]# sudo userdel -r gautham
+   [root@ip-172-31-1-129 ec2-user]# useradd gautham
+ >> 
+
+>>  >> $ cd ../gautham   >> $ ls -l
 
 >> [root@ip-172-31-4-113 ec2-user]# cd ../gautham
 
