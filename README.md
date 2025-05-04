@@ -39,10 +39,11 @@ Ownership
 chown <user>:<group> devops.txt
 
 Change the path
-$ cd /tmp/
->> ls -l
 
-$ touch aws.txt
+>> $ cd /tmp/     ||  >> ls -l
+
+>>  $ touch aws.txt
+
 >> ls -l            
 
 Sudo access to user
