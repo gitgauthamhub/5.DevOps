@@ -107,7 +107,7 @@ Think of an IP address as a building’s address and a port as an apartment numb
 
 >> [root@ip-172-31-4-113 gautham]# cd .ssh/
 
->> [root@ip-172-31-4-113 .ssh]# touch authorized
+>> [root@ip-172-31-4-113 .ssh]# touch authorizedkeys
 
 >> [root@ip-172-31-4-113 .ssh]# ls -l
 
