@@ -120,7 +120,9 @@ Think of an IP address as a building’s address and a port as an apartment numb
 
 >> ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIDrajRhPkTzRveq+V7V4rt9z7mRsPniZrYeKxOPW3cYp LENOVO@DESKTOP-71PH2GG
 
->> Note : Back Old Window   ||  [root@ip-172-31-4-113 .ssh]# vim authorized   || Paste here : $ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIDrajRhPkTzRveq+V7V4rt9z7mRsPniZrYeKxOPW3cYp LENOVO@DESKTOP-71PH2GG
+>> Note : Back Old Window   ||  [root@ip-172-31-4-113 .ssh]# vim authorized
+
+>> Paste here : ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIDrajRhPkTzRveq+V7V4rt9z7mRsPniZrYeKxOPW3cYp LENOVO@DESKTOP-71PH2GG
 
 >> [root@ip-172-31-4-113 .ssh]# vim authorized
 
