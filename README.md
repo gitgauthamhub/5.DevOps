@@ -127,7 +127,8 @@ Think of an IP address as a building’s address and a port as an apartment numb
 >> [root@ip-172-31-4-113 .ssh]# vim authorized
 
 >> [root@ip-172-31-4-113 .ssh]# cat authorized
-[200~ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIDrajRhPkTzRveq+V7V4rt9z7mRsPniZrYeKxOPW3cYp LENOVO@DESKTOP-71PH2GGi
+
+>> ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIDrajRhPkTzRveq+V7V4rt9z7mRsPniZrYeKxOPW3cYp LENOVO@DESKTOP-71PH2GG
 
 >> [root@ip-172-31-4-113 .ssh]# ls -l   ||  total 4  -rw-r--r--. 1 root root 110 May  3 23:35 authorized
 
