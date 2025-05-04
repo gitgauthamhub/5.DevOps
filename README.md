@@ -117,14 +117,19 @@ Think of an IP address as a building’s address and a port as an apartment numb
 
 >> [root@ip-172-31-4-113 .ssh]# cd ..
 
->> [root@ip-172-31-4-113 gautham]# ls -l
-
 >> [root@ip-172-31-4-113 gautham]# ls -la
 
 >> [root@ip-172-31-4-113 gautham]# chown gautham:gautham -R .ssh/
 
->> 
+>> [root@ip-172-31-4-113 gautham]# ls -la
 
+>> [root@ip-172-31-4-113 gautham]# cd .ssh/
+
+>> [root@ip-172-31-4-113 .ssh]# ls -la
+
+>> [root@ip-172-31-4-113 .ssh]#
+
+>> Note : Open Duplicate Window  ||  LENOVO@DESKTOP-71PH2GG MINGW64 /c/devops/daws-84s 
 
 
 
