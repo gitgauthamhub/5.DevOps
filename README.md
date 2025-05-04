@@ -83,7 +83,7 @@ Key based authentication
 >> Note : 65,536 ports 0-65,535  || Ports enable a single device (with one IP address) to run multiple services (e.g., web server, SSH, database) by directing traffic to the correct application.
 Think of an IP address as a building’s address and a port as an apartment number.
 
->> $ cat filename
+>> $ cat filename   ||  ls -l
 
 >> $ pwd   >> $ cd   >> $ sudo su   >> $ cd ../gautham   >> $ ls -l
 
