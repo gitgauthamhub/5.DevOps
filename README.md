@@ -132,7 +132,7 @@ Think of an IP address as a building’s address and a port as an apartment numb
 
 >> [root@ip-172-31-4-113 .ssh]# ls -l   ||  total 4  -rw-r--r--. 1 root root 110 May  3 23:35 authorized
 
->> [root@ip-172-31-4-113 .ssh]# chmod 600 authorized
+>> [root@ip-172-31-4-113 .ssh]# chmod 600 authorizedkeys
 
 >> [root@ip-172-31-4-113 .ssh]# ls -l || total 4 -rw-------. 1 root root 110 May  3 23:35 authorized
 
@@ -150,7 +150,22 @@ Think of an IP address as a building’s address and a port as an apartment numb
 
 >> [root@ip-172-31-4-113 .ssh]#
 
->> Note : Open Duplicate Window  ||  LENOVO@DESKTOP-71PH2GG MINGW64 /c/devops/daws-84s 
+>> Note : Open Duplicate Window  ||  LENOVO@DESKTOP-71PH2GG MINGW64 /c/devops/daws-84s
+
+>> $ ssh -i gautham gautham@3.210.197.35
+
+   ,     #_
+   ~\_  ####_        Amazon Linux 2023
+  ~~  \_#####\
+  ~~     \###|
+  ~~       \#/ ___   https://aws.amazon.com/linux/amazon-linux-2023
+   ~~       V~' '->
+    ~~~         /
+      ~~._.   _/
+         _/ _/
+       _/m/'
+This is Final OUTPUT Successful you can 
+
 
 
 
