@@ -111,9 +111,13 @@ Think of an IP address as a building’s address and a port as an apartment numb
 
 >> [root@ip-172-31-4-113 .ssh]# ls -l
 
->> Note : Open Duplicate Window  ||  LENOVO@DESKTOP-71PH2GG MINGW64 /c/devops/daws-84s   || ssh-keygen -f gautham
+>> Note : Open Duplicate Window  ||  LENOVO@DESKTOP-71PH2GG MINGW64 /c/devops/daws-84s
 
->> LENOVO@DESKTOP-71PH2GG MINGW64 /c/devops/daws-84s   || $ cat gautham.pub  :: $ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIDrajRhPkTzRveq+V7V4rt9z7mRsPniZrYeKxOPW3cYp LENOVO@DESKTOP-71PH2GG
+>>  ssh-keygen -f gautham
+
+>> LENOVO@DESKTOP-71PH2GG MINGW64 /c/devops/daws-84s
+
+>> $ cat gautham.pub  :: $ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIDrajRhPkTzRveq+V7V4rt9z7mRsPniZrYeKxOPW3cYp LENOVO@DESKTOP-71PH2GG
 
 >> Note : Back Old Window   ||  [root@ip-172-31-4-113 .ssh]# vim authorized   || Paste here : $ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIDrajRhPkTzRveq+V7V4rt9z7mRsPniZrYeKxOPW3cYp LENOVO@DESKTOP-71PH2GG
 
