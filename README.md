@@ -40,7 +40,9 @@ chown <user>:<group> devops.txt
 
 Change the path
 
->> $ cd /tmp/     ||  >> ls -l
+>> $ cd /tmp/
+
+>> ls -l
 
 >>  $ touch aws.txt
 
