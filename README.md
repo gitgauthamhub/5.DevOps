@@ -2,6 +2,8 @@
 ===============
 
 Permissions
+===============
+
 Permissions define who can access a file or directory and what actions they can perform (read, write, or execute). 
 Permissions are a core part of Linux’s security model, controlling access for users, groups, and others.
 
