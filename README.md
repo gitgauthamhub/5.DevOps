@@ -1,4 +1,4 @@
-# 5.DevSecOps
+# 5.DEVSECOPS
 ===============
 
 Permissions
